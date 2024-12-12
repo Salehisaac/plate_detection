@@ -1,4 +1,4 @@
-# Iranian License Plate Detection
+#Iranian License Plate Detection
 
 This program is developed and trained using **YOLOv7**, and the license plate detection is performed using the **OpenCV** library.
 
