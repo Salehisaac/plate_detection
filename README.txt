@@ -1,20 +1,20 @@
-# تشخیص پلاک ماشین‌های ایرانی
+# Iranian License Plate Detection
 
-این برنامه با استفاده از **YOLOv7** ساخته و آموزش داده شده است و عملیات تشخیص پلاک توسط کتابخانه **OpenCV** انجام شده است.  
+This program is developed and trained using **YOLOv7**, and the license plate detection is performed using the **OpenCV** library.
 
-## مشخصات مدل
-مدل مورد نظر با استفاده از 1500 تصویر از پلاک‌های ماشین‌های ایرانی و خارجی آموزش دیده و دیتاست مناسبی برای این هدف ایجاد شده است.  
+## Model Details
+The model is trained on 1500 images of Iranian and foreign license plates, creating a suitable dataset for this purpose.
 
-## مراحل راه‌اندازی
-برای راه‌اندازی این برنامه مراحل زیر را دنبال کنید:
+## Setup Instructions
+Follow the steps below to set up the program:
 
-1. **استخراج فایل‌ها**  
-   پوشه مربوط به برنامه را در یک مکان مشخص استخراج کنید.
+1. **Extract Files**  
+   Extract the program folder to a specified location on your system.
 
-2. **تغییر آدرس‌های محلی**  
-   آدرس‌های موجود در فایل `Yolov7_ANPR_ir` که در پوشه `yolov7` قرار دارد را به آدرس‌های محلی خود تغییر دهید.
+2. **Update Local Paths**  
+   Update the local paths in the `Yolov7_ANPR_ir` file located in the `yolov7` folder to match your local directory structure.
 
-3. **نصب پیش‌نیازها**  
-   وارد پوشه `yolov7` شوید و دستور زیر را در CMD یا ترمینال اجرا کنید:  
+3. **Install Requirements**  
+   Navigate to the `yolov7` folder and run the following command in CMD or terminal:  
    ```bash
    pip install -r requirements.txt
