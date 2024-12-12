@@ -18,3 +18,8 @@ Follow the steps below to set up the program:
    Navigate to the `yolov7` folder and run the following command in CMD or terminal:  
    ```bash
    pip install -r requirements.txt
+
+4. **Run the Program**  
+   Use the following command to run the program:  
+   ```bash
+   python Yolov7_ANPR_ir.py
