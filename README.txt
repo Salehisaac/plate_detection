@@ -1,22 +1,20 @@
-----------------------------------------------------------------------------------------------------------تشخیص پلاک ماشین های ایرانی -----------------------------------------------------------------------------------------------------------
+# تشخیص پلاک ماشین‌های ایرانی
 
+این برنامه با استفاده از **YOLOv7** ساخته و آموزش داده شده است و عملیات تشخیص پلاک توسط کتابخانه **OpenCV** انجام شده است.  
 
-in barname tavasot yolo v7 sakhte va train shode ast va detection an tavast ketabkane cv anjam shode ast.
+## مشخصات مدل
+مدل مورد نظر با استفاده از 1500 تصویر از پلاک‌های ماشین‌های ایرانی و خارجی آموزش دیده و دیتاست مناسبی برای این هدف ایجاد شده است.  
 
-model  mord nazar daraye 1500 aks az plak haye khreji va irani ast ke dataset monasebi ro be vojood avarde ast.
+## مراحل راه‌اندازی
+برای راه‌اندازی این برنامه مراحل زیر را دنبال کنید:
 
-braye rahandazi in app folder ra dar yek makan moshakhas extraxt konid, 
+1. **استخراج فایل‌ها**  
+   پوشه مربوط به برنامه را در یک مکان مشخص استخراج کنید.
 
-sepas addres haye local daroon Yolov7_ANPR_ir vaghe dar poshe yolov ra be addres haye local khode taghire dahid.
+2. **تغییر آدرس‌های محلی**  
+   آدرس‌های موجود در فایل `Yolov7_ANPR_ir` که در پوشه `yolov7` قرار دارد را به آدرس‌های محلی خود تغییر دهید.
 
-sepas ba cmd ya terminal vard yolov7 shode dastore pip install requirements.txt ra run konid (braye in kar be VPN niaz darid).
-
-va dar akhar dastoor python Yolov7_ANPR_ir ra run konid => barname plak machine ra tashkhis dade an ra joda mikonad va dar pooshe sidebar ghrar midahad va shomare plak niz ba deghat nesbatan khoob dar output ghrar migirad .
-
-ba tashakor 
-
-mohammad saleh ale eshagh 220700007
-seyeed ali faghih mosavi golpayegani 220700039
-
-
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3. **نصب پیش‌نیازها**  
+   وارد پوشه `yolov7` شوید و دستور زیر را در CMD یا ترمینال اجرا کنید:  
+   ```bash
+   pip install -r requirements.txt
